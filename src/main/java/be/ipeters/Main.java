@@ -7,21 +7,24 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.jms.core.JmsTemplate;
 
 import java.util.Arrays;
 @Slf4j
 @SpringBootApplication
 //@EnableAutoConfiguration(exclude={org.springframework.boot.autoconfigure.amqp.RabbitAutoConfiguration.class})
-
+@ComponentScan(basePackages = { "be.ipeters", "be.ipeters.crud.mapper" })
 public class Main {
     public static void main(String[] args) {
-		ApplicationContext ctx = SpringApplication.run(Main.class, args);
+//		ApplicationContext ctx =
+				SpringApplication.run(Main.class, args);
         log.debug("Hello world!");
 
-	JmsTemplate jms = ctx.getBean(JmsTemplate.class);
-		jms.convertAndSend("javainuse", "test message");
+//	JmsTemplate jms = ctx.getBean(JmsTemplate.class);
+//		jms.convertAndSend("javainuse", "test message");
 	}
+
 //    	@Bean
 //	public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
 //		return args -> {
@@ -36,4 +39,5 @@ public class Main {
 //
 //		};
 //	}
+
 }

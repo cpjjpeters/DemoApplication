@@ -1,5 +1,4 @@
-package be.ipeters.queue;
-import com.fasterxml.jackson.databind.ObjectMapper;
+package be.ipeters.rabbitmq;
 
 //import org.springframework.amqp.core.*;
 //import org.springframework.amqp.rabbit.annotation.EnableRabbit;
