@@ -22,11 +22,15 @@ public class JmsProducer {
     private String topic;
 
     public void sendMessage(Employee message){
-        try{
-            log.info("Attempting Send message {} to Topic: {}",randomGenerator.produceString(), topic);
-            jmsTemplate.convertAndSend(topic, message);
-        } catch(Exception e){
-            log.error("Recieved Exception during send Message: ", e);
+        for(int i = 1;i<50;i++) {
+            try {
+                log.info("Attempting Send message {} to Topic: {}", randomGenerator.produceString(), topic);
+                Employee generated = randomGenerator.produceEmployee();
+                jmsTemplate.convertAndSend(topic, message);
+                jmsTemplate.convertAndSend(topic, generated);
+            } catch (Exception e) {
+                log.error("Received Exception during send Message: ", e);
+            }
         }
     }
 }
