@@ -14,7 +14,6 @@ import org.springframework.stereotype.Service;
 public class QueueMessageService {
 
     private final EmployeeJpaService employeeJpaService;
-//    private final EmployeeJpaDaoMapper employeeJpaDaoMapper;
 
     public QueueMessageService(EmployeeJpaService employeeJpaService ) {
         this.employeeJpaService = employeeJpaService;

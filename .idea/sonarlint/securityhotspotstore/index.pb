@@ -15,7 +15,3 @@ z
 Jsrc/test/java/be/ipeters/SpringBootStandaloneActivemqApplicationTests.java,9/a/9aaf392711f41b4a3ec422bfd13e9b27118cf69e
 o
 ?src/main/java/be/ipeters/activemq/config/ApplicationConfig.java,f/0/f032097bf5615897e525e598c986c43af96e649a
-z
-Jsrc/main/java/be/ipeters/activemq/controller/ProduceMessageController.java,8/6/86084f43333b7b3df9bd7345da5289cdd123f30f
-e
-5src/main/java/be/ipeters/activemq/model/Employee.java,a/c/ac7e5f0fbe35fc56111b53a6579607138d770a69
