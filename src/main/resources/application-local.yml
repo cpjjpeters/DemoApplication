@@ -1,12 +1,23 @@
 active-mq:
   broker-url: tcp://localhost:61616
   topic: demo.topic
+  broker-url2: tcp://localhost:61617
+  q2: demo.queue2
 server:
   port: 8080
   servlet:
 #    context-path: /crud
-
+jms:
+  queue: Q.Test
 spring:
+  artemis:
+    mode: native
+    host: localhost
+    port: 61616
+    user: admin
+    password: test
+
+
   sql:
     init:
       mode: always
@@ -15,6 +26,7 @@ spring:
     username: sa
     password:
     initialization-mode: always
-    url: jdbc:h2:mem:testdb
+    url: jdbc:h2:mem:demodb
+#    url: jdbc:h2:file:~/Documenten/databaseH2/demodb
 app:
   environment: local

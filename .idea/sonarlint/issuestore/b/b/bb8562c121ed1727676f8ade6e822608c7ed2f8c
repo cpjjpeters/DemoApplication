@@ -1,0 +1,16 @@
+
+J
+java:S1604*"(Make this anonymous inner class a lambda(Ôˆ´æşÿÿÿÿ8ê‘ù¯ö0
+Ñ
+java:S5301"®Secure this "ActiveMQConnectionFactory" by whitelisting the trusted packages using the "setTrustedPackages" method and make sure the "setTrustAllPackages" is not set to true.(µÔ¨ûÿÿÿÿ8Ä’ù¯ö0
+U	java:S1061"9Replace this use of System.out or System.err by a logger.(³ë…¨8Ç’ù¯ö0
+U	java:S1065"9Replace this use of System.out or System.err by a logger.(³ë…¨8Ç’ù¯ö0
+Z	java:S106E"9Replace this use of System.out or System.err by a logger.(İÏÁàıÿÿÿÿ8È’ù¯ö0
+U	java:S106K"9Replace this use of System.out or System.err by a logger.(³ë…¨8È’ù¯ö0
+U	java:S106S"9Replace this use of System.out or System.err by a logger.(³ë…¨8È’ù¯ö0
+Z	java:S106Z"9Replace this use of System.out or System.err by a logger.(ãÉ®îüÿÿÿÿ8Ï’ù¯ö0
+Z	java:S106^"9Replace this use of System.out or System.err by a logger.(†²¶ûÿÿÿÿ8Ğ’ù¯ö0
+U	java:S106`"9Replace this use of System.out or System.err by a logger.(‹¶ƒà8Ğ’ù¯ö0
+U	java:S106b"9Replace this use of System.out or System.err by a logger.(³“º¿8Ğ’ù¯ö0
+U	java:S106d"9Replace this use of System.out or System.err by a logger.(»ÇØ˜8Ñ’ù¯ö0
+Z	java:S106h"9Replace this use of System.out or System.err by a logger.(ñÙˆ¼şÿÿÿÿ8Ñ’ù¯ö0

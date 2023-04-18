@@ -18,11 +18,15 @@ public class ActiveMQConfig {
     @Value("${active-mq.broker-url}")
     private String brokerUrl;
 
+    @Value("${active-mq.broker-url2}")
+    private String brokerUrl2;
+
     @Bean
     public ConnectionFactory connectionFactory(){
         ActiveMQConnectionFactory activeMQConnectionFactory  = new ActiveMQConnectionFactory();
         activeMQConnectionFactory.setTrustAllPackages(true);
         activeMQConnectionFactory.setBrokerURL(brokerUrl);
+        //activeMQConnectionFactory.setBrokerURL(brokerUrl2);
         activeMQConnectionFactory.setTrustedPackages(Arrays.asList("com.mailshine.springbootstandaloneactivemq"));
         return  activeMQConnectionFactory;
     }

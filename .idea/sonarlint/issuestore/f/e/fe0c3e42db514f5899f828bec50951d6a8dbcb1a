@@ -1,0 +1,5 @@
+
+e
+java:S2095 "HUse try-with-resources or close this "Connection" in a "finally" clause.(Ä÷Éù8ã¿ûö0
+Z	java:S106+"9Replace this use of System.out or System.err by a logger.(›ù­ûÿÿÿÿ8ç¿ûö0
+Z	java:S1069"9Replace this use of System.out or System.err by a logger.(Ãò¦¥ÿÿÿÿÿ8é¿ûö0

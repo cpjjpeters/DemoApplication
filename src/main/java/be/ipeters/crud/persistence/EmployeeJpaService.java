@@ -16,4 +16,13 @@ public class EmployeeJpaService {
         return employeeJpaRepository.save(employee);
 
     }
+
+//    public HashMap<String, Integer> countDaily(){
+//
+//        return this.employeeJpaRepository.countDaily();
+//    }
+//
+//    public Integer number(){
+//        return this.employeeJpaRepository.number();
+//    }
 }
